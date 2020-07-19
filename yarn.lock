@@ -485,10 +485,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@comparto/eslint-config@1.1.2":
-  version "1.1.2"
-  resolved "https://registry.npmjs.org/@comparto/eslint-config/-/eslint-config-1.1.2.tgz#d4ab1cf332232d0c54a10e18af3631dfb59e386e"
-  integrity sha512-PrLF75uwv7quUXSVWAdr0bdfSsvev0udVqS5wsL5xhk05AYb01afCKHt5S+ud22V39dbHmR2ZmRuRVo7C0ih/A==
+"@comparto/eslint-config@3.0.0":
+  version "3.0.0"
+  resolved "https://registry.npmjs.org/@comparto/eslint-config/-/eslint-config-3.0.0.tgz#43c9f0f2840f8d1cd7e1b978b2e53f99de969cae"
+  integrity sha512-Yd23HWzlIr6vhymFgTjdd6u6hvc0LXYHFP3PyiTipGUF0XfYERC4rEt9VcOPbdFpw4r/lPEOW/z31RxOGl5XJA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^3.4.0"
     "@typescript-eslint/parser" "^3.4.0"
@@ -501,6 +501,11 @@
     eslint-plugin-prettier "^3.1.3"
     eslint-plugin-react "^7.20.0"
     eslint-plugin-react-hooks "^4.0.4"
+
+"@comparto/prettier-config@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@comparto/prettier-config/-/prettier-config-1.0.0.tgz#eaeafb4cc4552a612aa63baa5013cf542f01e611"
+  integrity sha512-1h86wq/UEFwg7ScR2N+o87s5RpZEmMRr7kHh51BjRLlFZviaZiqVmi920pSCNWqFSonGQaMuuV/KoLG9IQNAbQ==
 
 "@iarna/cli@^1.2.0":
   version "1.2.0"
