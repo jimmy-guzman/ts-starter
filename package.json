@@ -21,6 +21,7 @@
     "test:coverage": "jest --coverage",
     "test:ci": "yarn test:coverage"
   },
+  "prettier": "@comparto/prettier-config",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -37,7 +38,8 @@
   "peerDependencies": {},
   "dependencies": {},
   "devDependencies": {
-    "@comparto/eslint-config": "1.1.2",
+    "@comparto/eslint-config": "3.0.0",
+    "@comparto/prettier-config": "^1.0.0",
     "@semantic-release/changelog": "^5.0.1",
     "@semantic-release/git": "^9.0.0",
     "eslint": "^7.2.0",

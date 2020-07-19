@@ -4,7 +4,7 @@
 [![semantic-release][semantic-release-badge]][semantic-release]
 [![code style: prettier][prettier-badge]][prettier]
 
-# @comparto/\repository-name
+# @comparto/repository-name
 
 [Description goes here]
 
