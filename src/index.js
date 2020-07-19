@@ -1,1 +1,1 @@
-module.exports = console.log('repository-name')
+module.exports = ''

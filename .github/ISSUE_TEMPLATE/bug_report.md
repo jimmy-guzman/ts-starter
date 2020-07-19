@@ -12,7 +12,7 @@ name: 🐛 Bug Report
 about: Bugs, missing documentation, or unexpected behavior 🤔.
 ---
 
-- `@comparto/repository-name` version:
+- `@comparto/package-name` version:
 - `eslint` version:
 - `typescript` version:
 - `node` version:
