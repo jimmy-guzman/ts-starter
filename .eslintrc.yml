@@ -1,2 +1,1 @@
-extends:
-  - '@comparto/eslint-config'
+extends: '@comparto/eslint-config'

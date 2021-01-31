@@ -1,9 +1,17 @@
-name: Release
+name: cicd
 
 on:
+  # ! remove "branches-ignore" and use "branches" with your chosen branches
   push:
     branches-ignore:
       - '**'
+    # branches:
+    #   - master
+  pull_request:
+    branches-ignore:
+      - '**'
+    # branches:
+    #   - master
 
 jobs:
   test:
@@ -30,22 +38,24 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: ${{ steps.nvm.outputs.NVMRC }}
+
       - run: yarn install --frozen-lockfile
       - run: yarn lint
       - run: yarn test:ci
 
-      - name: Upload coverage to Codecov
+      - name: Codecov
         uses: codecov/codecov-action@v1
         with:
           file: ./coverage/lcov.info
 
-  publish-npm:
+  release:
     needs: test
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         with:
           fetch-depth: 0
+          token: ${{ secrets.SEMANTIC_RELEASE }}
         uses: actions/checkout@v2
 
       - name: Get yarn cache directory path
@@ -72,7 +82,7 @@ jobs:
       - run: yarn install --frozen-lockfile
 
       - name: Publish to NPM
-        run: npx semantic-release
         env:
-          GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npx semantic-release
