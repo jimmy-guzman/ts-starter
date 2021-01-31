@@ -32,6 +32,7 @@ rules:
       - dev-deps
       - '*'
       - release
+      - scripts
   subject-case:
     - 2
     - never

@@ -12,3 +12,9 @@
 
 [create-secrets]: https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository
 [codecov-quickstart]: https://docs.codecov.io/docs/quick-start
+
+## Steps
+
+1. run `./change-pkg-name.sh`
+
+<!-- TODO: finish instructions -->

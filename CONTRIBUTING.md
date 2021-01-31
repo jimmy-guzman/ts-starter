@@ -18,7 +18,7 @@ gh repo clone jimmy-guzman/library-template
 
 Use either `nvm` or `volta` to be in sync with node version
 
-- With [volta](https://volta.sh/) (Recommended)
+- with [volta](https://volta.sh/) _(recommended)_
 
 ```bash
 curl https://get.volta.sh | bash
@@ -28,7 +28,7 @@ curl https://get.volta.sh | bash
 yarn install
 ```
 
-- With [nvm](https://github.com/nvm-sh/nvm)
+- with [nvm](https://github.com/nvm-sh/nvm)
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
