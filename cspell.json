@@ -15,7 +15,9 @@
     "nvmrc",
     "prebuild",
     "streetsidesoftware",
-    "wagoid"
+    "wagoid",
+    "shellcheck",
+    "OSTYPE"
   ],
   "ignorePaths": [
     "node_modules", // this will ignore anything the node_modules directory

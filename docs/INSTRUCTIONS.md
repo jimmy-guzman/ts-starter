@@ -15,6 +15,7 @@
 
 ## Steps
 
-1. run `./change-pkg-name.sh`
+1. run `./scripts/change-pkg-name.sh`
+1. run `./scripts/change-repo-name.sh`
 
 <!-- TODO: finish instructions -->

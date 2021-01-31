@@ -1,10 +1,10 @@
 {
-  "name": "@comparto/package-name",
+  "name": "your-package-name",
   "version": "0.0.0",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/comparto/package-name.git"
+    "url": "https://github.com/your-repo-user/your-repo-name.git"
   },
   "author": "@jimmy-guzman <jimmy.guzman@outlook.com>",
   "license": "MIT",
