@@ -38,9 +38,8 @@ jobs:
           node-version: ${{ steps.nvm.outputs.NVMRC }}
 
       - run: yarn install --frozen-lockfile
-      - run: yarn pretty:check
-      - run: yarn lint
-      - run: yarn test:ci --passWithNoTests # !remove --passWithNoTests
+
+      - run: yarn validate
 
       - name: Codecov
         uses: codecov/codecov-action@v1
