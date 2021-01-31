@@ -1,1 +1,4 @@
+CHANGELOG.md
 .cache
+!.github
+!.vscode

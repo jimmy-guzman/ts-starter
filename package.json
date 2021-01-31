@@ -13,7 +13,7 @@
     "access": "public"
   },
   "scripts": {
-    "prettify": "prettier '**/**/*.{js,md}' --write",
+    "prettify": "prettier '**/**/*.{js,md,yml}' --write",
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint/ . --ext .js",
     "lint:fix": "yarn lint --fix",
     "test": "jest",
@@ -28,7 +28,7 @@
     }
   },
   "lint-staged": {
-    "*.{md}": [
+    "*.{md,yml}": [
       "prettier --write"
     ],
     "*.{js}": [
