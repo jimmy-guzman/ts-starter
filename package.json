@@ -13,7 +13,9 @@
     "access": "public"
   },
   "scripts": {
-    "prettify": "prettier '**/**/*.{js,md,yml}' --write",
+    "pretty": "prettier '**/**/*.{js,md,yml}'",
+    "pretty:write": "yarn pretty --write",
+    "pretty:check": "yarn pretty --check",
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint/ . --ext .js",
     "lint:fix": "yarn lint --fix",
     "test": "jest",

@@ -14,10 +14,11 @@ This template includes configuration for publishing a library end two end. It in
   - with [commitlint][commitlint] configuration to help enforce semantic-release conventions
 - [GitHub Actions][github-actions] configuration for complete ci/cd
   - pipeline includes
-    - install w/ cache
+    - install with cache
     - support for any `yarn` commands
     - [codecov][codecov]
     - automated releases through semantic-release
+    - lint commits on pull requests
 
 <!-- ![description ends here] -->
 

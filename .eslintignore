@@ -2,3 +2,4 @@ CHANGELOG.md
 .cache
 !.github
 !.vscode
+coverage

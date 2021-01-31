@@ -4,13 +4,15 @@
         "cicd",
         "Codecov",
         "commitlint",
+        "commitlintrc",
         "comparto",
         "dbaeumer",
         "deps",
         "esbenp",
         "gitzy",
         "lcov",
-        "nvmrc"
+        "nvmrc",
+        "wagoid"
     ],
     "ignorePaths": [
         "node_modules", // this will ignore anything the node_modules directory
