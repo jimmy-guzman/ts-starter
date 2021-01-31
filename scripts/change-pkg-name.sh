@@ -1,15 +1,16 @@
 #!/bin/bash
 
-# TODO: should change @comparto scope as well
-CURRENT_NAME="package-name"
+# shellcheck disable=SC1091
+source ./scripts/utils.sh
+
+CURRENT_NAME="your-package-name"
 NEW_NAME=$1
 CURRENT_DIR=$PWD
 
 if [[ -z ${1} ]]; then
-    echo "Please provide new package name"
+    logError "Please provide new package name as \$1"
     exit 1
 fi
-
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
     sed -i '' -e "s/$CURRENT_NAME/$NEW_NAME/g" 'README.md' 'package.json' 'LICENSE'
@@ -17,20 +18,12 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     cd "./.github/ISSUE_TEMPLATE" || exit
     
     sed -i '' -e "s/$CURRENT_NAME/$NEW_NAME/g" 'bug_report.md'
-    
-    cd "$CURRENT_DIR/.github/workflows" || exit
-    
-    sed -i '' -e "s/$CURRENT_NAME/$NEW_NAME/g" 'cicd.yml'
 else
     sed -i -e "s/$CURRENT_NAME/$NEW_NAME/g" 'README.md' 'package.json' 'LICENSE'
     
     cd "./.github/ISSUE_TEMPLATE" || exit
     
     sed -i -e "s/$CURRENT_NAME/$NEW_NAME/g" 'bug_report.md'
-    
-    cd "$CURRENT_DIR/.github/workflows" || exit
-    
-    sed -i -e "s/$CURRENT_NAME/$NEW_NAME/g" 'cicd.yml'
 fi
 
 cd "$CURRENT_DIR" || exit

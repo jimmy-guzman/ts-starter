@@ -13,7 +13,7 @@ about: Bugs, missing documentation, or unexpected behavior 🤔.
 
 ---
 
-- `@comparto/package-name` version:
+- `your-package-name` version:
 - `eslint` version:
 - `typescript` version:
 - `node` version:
