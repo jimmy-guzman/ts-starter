@@ -1,5 +1,5 @@
 {
-  "version": "0.1",
+  "version": "0.2",
   "words": [
     "cicd",
     "Codecov",
@@ -13,11 +13,13 @@
     "gruntfuggly",
     "lcov",
     "nvmrc",
+    "OSTYPE",
+    "pnpm",
     "prebuild",
-    "streetsidesoftware",
-    "wagoid",
     "shellcheck",
-    "OSTYPE"
+    "streetsidesoftware",
+    "yalc",
+    "wagoid"
   ],
   "ignorePaths": [
     "node_modules", // this will ignore anything the node_modules directory
@@ -28,6 +30,7 @@
     ".git", // Ignore the .git directory
     "*.dll", // Ignore all .dll files.
     "**/*.dll", // Ignore all .dll files,
-    "yarn.lock"
+    "yarn.lock",
+    "pnpm-lock.yaml"
   ]
 }
