@@ -14,7 +14,7 @@ This template includes configuration for publishing a library end two end. It in
   - with [commitlint][commitlint] configuration to help enforce semantic-release conventions
 - [GitHub Actions][github-actions] configuration for complete ci/cd
   - install with cache
-  - support for any `yarn` commands
+  - support for any `pnpm` commands
   - [codecov][codecov]
   - automated releases with semantic-release
   - lint commits on pull requests with [commitlint-action][commitlint-action]
