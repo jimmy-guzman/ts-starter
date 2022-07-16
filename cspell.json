@@ -14,12 +14,15 @@
     "lcov",
     "nvmrc",
     "OSTYPE",
+    "Parens",
     "pnpm",
     "prebuild",
     "shellcheck",
     "streetsidesoftware",
-    "yalc",
-    "wagoid"
+    "tsup",
+    "wagoid",
+    "vitest",
+    "yalc"
   ],
   "ignorePaths": [
     "node_modules", // this will ignore anything the node_modules directory
