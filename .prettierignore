@@ -6,6 +6,3 @@ dist
 coverage
 pnpm-lock.yaml
 
-!.config/
-!.github/
-!.vscode

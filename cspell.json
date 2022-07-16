@@ -9,6 +9,7 @@
     "dbaeumer",
     "deps",
     "esbenp",
+    "esbuild",
     "gitzy",
     "gruntfuggly",
     "lcov",
@@ -20,8 +21,8 @@
     "shellcheck",
     "streetsidesoftware",
     "tsup",
-    "wagoid",
     "vitest",
+    "wagoid",
     "yalc"
   ],
   "ignorePaths": [
