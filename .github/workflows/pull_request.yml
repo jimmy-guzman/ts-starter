@@ -40,6 +40,9 @@ jobs:
       - name: test
         run: pnpm test:coverage
 
+      - name: build
+        run: pnpm build
+
   commit_check:
     runs-on: ubuntu-latest
 

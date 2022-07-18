@@ -48,7 +48,7 @@
 
 <!-- badges links -->
 
-[actions-badge]: https://img.shields.io/github/workflow/status/your-repo-user/your-repo-name/cicd?label=actions&logo=github-actions&style=flat-square
+[actions-badge]: https://img.shields.io/github/workflow/status/your-repo-user/your-repo-name/release?label=actions&logo=github-actions&style=flat-square
 [version-badge]: https://img.shields.io/npm/v/your-package-name.svg?logo=npm&style=flat-square
 [package]: https://www.npmjs.com/package/your-package-name
 [downloads-badge]: https://img.shields.io/npm/dm/your-package-name.svg?logo=npm&style=flat-square
