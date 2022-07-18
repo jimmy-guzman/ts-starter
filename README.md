@@ -8,28 +8,45 @@
 
 <!-- ![description starts here] -->
 
-This template includes configuration for publishing a library end two end. It includes:
+## Features
 
+- [pnpm][pnpm] for fast and consistent installs
+- [esbuild][esbuild] for fast builds powered by [tsup][tsup]
+- [vitest][vitest] for fast unit tests
+- [eslint][eslint] for static analysis
+- [prettier][prettier] for formatting
+- [commitlint][commitlint] to help enforce conventions
 - [semantic-release][semantic-release] configuration
-  - with [commitlint][commitlint] configuration to help enforce semantic-release conventions
-- [GitHub Actions][github-actions] configuration for complete ci/cd
-  - install with cache
-  - support for any `pnpm` commands
-  - [codecov][codecov]
-  - automated releases with semantic-release
+- [GitHub Actions][github-actions] with
+  - install deps `pnpm` with cache
+  - coverage reporting with [codecov][codecov]
   - lint commits on pull requests with [commitlint-action][commitlint-action]
   - spellcheck on pull requests with [cspell-action][cspell-action]
 
 <!-- ![description ends here] -->
 
-## Usage
-
 <!-- ![usage starts here] -->
 
+## Usage
+
 - [Use this template][use-template]
-- Follow [instructions][docs-instructions]
+
+### Prerequisites
+
+- [create secrets][create-secrets] for your new repo started from this template
+  - `SEMANTIC_RELEASE`
+  - `NPM_TOKEN`
+- [create codecov account and token][codecov-quickstart]
+
+### Steps
+
+1. `./scripts/change-pkg-name.sh`
+1. `./scripts/change-repo-name.sh`
+1. `rm -rf scripts`
 
 <!-- ![usage ends here] -->
+
+<!-- badges links -->
 
 [actions-badge]: https://img.shields.io/github/workflow/status/your-repo-user/your-repo-name/cicd?label=actions&logo=github-actions&style=flat-square
 [version-badge]: https://img.shields.io/npm/v/your-package-name.svg?logo=npm&style=flat-square
@@ -42,10 +59,22 @@ This template includes configuration for publishing a library end two end. It in
 [coverage]: https://codecov.io/github/your-repo-user/your-repo-name
 [prettier-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
 [prettier]: https://github.com/prettier/prettier
-[commitlint]: https://commitlint.js.org/#/
+
+<!-- features links -->
+
+[pnpm]: https://pnpm.io
+[esbuild]: https://esbuild.github.io
+[tsup]: https://tsup.egoist.sh
+[commitlint]: https://commitlint.js.org/#
+[eslint]: https://eslint.org
+[vitest]: https://vitest.dev
+[codecov]: https://codecov.io
 [github-actions]: https://github.com/features/actions
-[codecov]: https://codecov.io/
-[use-template]: https://github.com/jimmy-guzman/library-template/generate
-[docs-instructions]: ./docs/INSTRUCTIONS.md
 [cspell-action]: https://github.com/streetsidesoftware/cspell-action
 [commitlint-action]: https://github.com/wagoid/commitlint-github-action
+
+<!-- usage links -->
+
+[use-template]: https://github.com/jimmy-guzman/library-template/generate
+[create-secrets]: https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository
+[codecov-quickstart]: https://docs.codecov.io/docs/quick-start

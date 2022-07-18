@@ -5,7 +5,7 @@
 ssh
 
 ```bash
-git@github.com:jimmy-guzman/library-template.git
+git clone git@github.com:jimmy-guzman/library-template.git
 ```
 
 Github Cli
@@ -16,12 +16,12 @@ gh repo clone jimmy-guzman/library-template
 
 ## Install
 
-Use either `nvm` or `volta` to be in sync with node version
+Use either `nvm` or `pnpm env` to be in sync with node version
 
-- with [volta](https://volta.sh/) _(recommended)_
+- with [pnpm env](https://pnpm.io/cli/env)
 
 ```bash
-curl https://get.volta.sh | bash
+pnpm env use --global 16
 ```
 
 ```bash
