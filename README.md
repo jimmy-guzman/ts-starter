@@ -40,8 +40,8 @@
 
 ### Steps
 
-1. `./scripts/change-pkg-name.sh`
-1. `./scripts/change-repo-name.sh`
+1. `./scripts/change-name.sh`
+1. `./scripts/change-user.sh`
 1. `rm -rf scripts`
 
 <!-- ![usage ends here] -->
