@@ -2,8 +2,6 @@
   "recommendations": [
     "streetsidesoftware.code-spell-checker",
     "esbenp.prettier-vscode",
-    "dbaeumer.vscode-eslint",
-    "aaron-bond.better-comments",
-    "gruntfuggly.todo-tree"
+    "dbaeumer.vscode-eslint"
   ]
 }
