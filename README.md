@@ -8,6 +8,8 @@
 
 <!-- ![description starts here] -->
 
+> 🍱 A template with the complete configuration for publishing a typescript library
+
 ## Features
 
 - [pnpm][pnpm] for fast and consistent installs
