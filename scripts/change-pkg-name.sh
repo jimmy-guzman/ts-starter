@@ -3,7 +3,7 @@
 # shellcheck disable=SC1091
 source ./scripts/utils.sh
 
-CURRENT_NAME="your-package-name"
+CURRENT_NAME="library-template"
 NEW_NAME=$1
 CURRENT_DIR=$PWD
 

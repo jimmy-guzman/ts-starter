@@ -31,14 +31,12 @@
 
 ## Usage
 
-- [Use this template][use-template]
-
 ### Prerequisites
 
-- [create secrets][create-secrets] for your new repo started from this template
+- [create secrets][create-secrets]
   - `SEMANTIC_RELEASE`
   - `NPM_TOKEN`
-- [create codecov account and token][codecov-quickstart]
+- [create codecov account][codecov-quickstart]
 
 ### Steps
 
@@ -51,10 +49,10 @@
 <!-- badges links -->
 
 [actions-badge]: https://img.shields.io/github/workflow/status/jimmy-guzman/library-template/release?label=actions&logo=github-actions&style=flat-square
-[version-badge]: https://img.shields.io/npm/v/your-package-name.svg?logo=npm&style=flat-square
-[package]: https://www.npmjs.com/package/your-package-name
-[downloads-badge]: https://img.shields.io/npm/dm/your-package-name.svg?logo=npm&style=flat-square
-[npmtrends]: http://www.npmtrends.com/your-package-name
+[version-badge]: https://img.shields.io/npm/v/library-template.svg?logo=npm&style=flat-square
+[package]: https://www.npmjs.com/package/library-template
+[downloads-badge]: https://img.shields.io/npm/dm/library-template.svg?logo=npm&style=flat-square
+[npmtrends]: http://www.npmtrends.com/library-template
 [semantic-release]: https://semantic-release.gitbook.io/semantic-release/
 [semantic-release-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
 [coverage-badge]: https://img.shields.io/codecov/c/github/jimmy-guzman/library-template.svg?style=flat-square

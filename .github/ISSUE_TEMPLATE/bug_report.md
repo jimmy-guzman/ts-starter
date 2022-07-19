@@ -13,8 +13,7 @@ about: Bugs, missing documentation, or unexpected behavior 🤔.
 
 ---
 
-- `your-package-name` version:
-- `eslint` version:
+- `library-template` version:
 - `typescript` version:
 - `node` version:
 
