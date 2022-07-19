@@ -4,7 +4,7 @@
 [![semantic-release][semantic-release-badge]][semantic-release]
 [![code style: prettier][prettier-badge]][prettier]
 
-# your-package-name
+# library-template
 
 <!-- ![description starts here] -->
 
@@ -48,15 +48,15 @@
 
 <!-- badges links -->
 
-[actions-badge]: https://img.shields.io/github/workflow/status/your-repo-user/your-repo-name/release?label=actions&logo=github-actions&style=flat-square
+[actions-badge]: https://img.shields.io/github/workflow/status/jimmy-guzman/library-template/release?label=actions&logo=github-actions&style=flat-square
 [version-badge]: https://img.shields.io/npm/v/your-package-name.svg?logo=npm&style=flat-square
 [package]: https://www.npmjs.com/package/your-package-name
 [downloads-badge]: https://img.shields.io/npm/dm/your-package-name.svg?logo=npm&style=flat-square
 [npmtrends]: http://www.npmtrends.com/your-package-name
 [semantic-release]: https://semantic-release.gitbook.io/semantic-release/
 [semantic-release-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
-[coverage-badge]: https://img.shields.io/codecov/c/github/your-repo-user/your-repo-name.svg?style=flat-square
-[coverage]: https://codecov.io/github/your-repo-user/your-repo-name
+[coverage-badge]: https://img.shields.io/codecov/c/github/jimmy-guzman/library-template.svg?style=flat-square
+[coverage]: https://codecov.io/github/jimmy-guzman/library-template
 [prettier-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
 [prettier]: https://github.com/prettier/prettier
 

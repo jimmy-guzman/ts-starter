@@ -3,8 +3,8 @@
 # shellcheck disable=SC1091
 source ./scripts/utils.sh
 
-CURRENT_REPO_NAME="your-repo-name"
-CURRENT_REPO_USER="your-repo-user"
+CURRENT_REPO_NAME="library-template"
+CURRENT_REPO_USER="jimmy-guzman"
 NEW_REPO_NAME=$1
 NEW_REPO_USER=$2
 CURRENT_DIR=$PWD
