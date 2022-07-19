@@ -3,9 +3,8 @@
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-repo-user/your-repo-name.git"
+    "url": "https://github.com/jimmy-guzman/library-template.git"
   },
-  "author": "@jimmy-guzman <jimmy.guzman@outlook.com>",
   "license": "MIT",
   "keywords": [],
   "publishConfig": {

@@ -38,6 +38,11 @@ jobs:
       - name: test
         run: pnpm test:coverage
 
+      - name: codecov
+        uses: codecov/codecov-action@v3
+        with:
+          file: ./coverage/coverage-final.json
+
       - name: build
         run: pnpm build
 
