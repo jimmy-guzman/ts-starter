@@ -33,9 +33,7 @@
 
 ### Prerequisites
 
-- [create secrets][create-secrets]
-  - `SEMANTIC_RELEASE`
-  - `NPM_TOKEN`
+- add `NPM_TOKEN` as [repository secret][create-secrets]
 - [create codecov account][codecov-quickstart]
 
 ### Steps
