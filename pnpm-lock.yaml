@@ -11,7 +11,7 @@ specifiers:
   commitlint: 17.0.3
   eslint: 8.20.0
   eslint-config-jimmy-guzman: 7.0.0
-  gitzy: 3.2.0
+  gitzy: 3.3.0
   husky: 8.0.1
   is-ci: 3.0.1
   lint-staged: 13.0.3
@@ -33,7 +33,7 @@ devDependencies:
   commitlint: 17.0.3
   eslint: 8.20.0
   eslint-config-jimmy-guzman: 7.0.0_7wmdnazylordkmmp5xylrck47q
-  gitzy: 3.2.0
+  gitzy: 3.3.0
   husky: 8.0.1
   is-ci: 3.0.1
   lint-staged: 13.0.3
@@ -2434,8 +2434,8 @@ packages:
       through2: 4.0.2
     dev: true
 
-  /gitzy/3.2.0:
-    resolution: {integrity: sha512-5iDDHju2W38YNCcGYXY2IkbV19jk5rrqW47zPP8EpvvpgFz9udkwJN+Ctj3dSBmuJY0LXIXbXSnwANEuphr0aQ==}
+  /gitzy/3.3.0:
+    resolution: {integrity: sha512-qC5BMqcZYapIBHRXbNNRmAoyqpVnecqRZ+0oX/fDsO3PkwGaLwT+uGKKS6XQ5hstOlbq2LEZtTOwokrITQ115w==}
     engines: {node: '>= 14'}
     hasBin: true
     dependencies:
@@ -2443,7 +2443,7 @@ packages:
       commander: 9.4.0
       enquirer: 2.3.6
       lilconfig: 2.0.6
-      yaml: 1.10.2
+      yaml: 2.1.1
     dev: true
 
   /glob-parent/5.1.2:
