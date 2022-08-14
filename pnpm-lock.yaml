@@ -11,7 +11,7 @@ specifiers:
   commitlint: 17.0.3
   eslint: 8.22.0
   eslint-config-jimmy-guzman: 7.0.0
-  gitzy: 3.3.0
+  gitzy: 3.4.0
   husky: 8.0.1
   is-ci: 3.0.1
   lint-staged: 13.0.3
@@ -33,7 +33,7 @@ devDependencies:
   commitlint: 17.0.3
   eslint: 8.22.0
   eslint-config-jimmy-guzman: 7.0.0_zczhdx677l6mw2hrju5deojgfm
-  gitzy: 3.3.0
+  gitzy: 3.4.0
   husky: 8.0.1
   is-ci: 3.0.1
   lint-staged: 13.0.3
@@ -2660,8 +2660,8 @@ packages:
       through2: 4.0.2
     dev: true
 
-  /gitzy/3.3.0:
-    resolution: {integrity: sha512-qC5BMqcZYapIBHRXbNNRmAoyqpVnecqRZ+0oX/fDsO3PkwGaLwT+uGKKS6XQ5hstOlbq2LEZtTOwokrITQ115w==}
+  /gitzy/3.4.0:
+    resolution: {integrity: sha512-nNzu0VQNpPUDtqWn0o7VrtRJ0IDkMQunph4sbS8FaVGxS5fRaqvHHe8ihDQKUVYlJZU1kRdyNmKmheAkHajmkg==}
     engines: {node: '>= 14'}
     hasBin: true
     dependencies:
