@@ -51,7 +51,7 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "9.0.1",
     "@semantic-release/release-notes-generator": "10.0.3",
-    "@vitest/coverage-c8": "0.22.1",
+    "@vitest/coverage-c8": "0.24.3",
     "commitlint": "17.1.2",
     "eslint": "8.23.1",
     "eslint-config-jimmy-guzman": "7.0.0",
