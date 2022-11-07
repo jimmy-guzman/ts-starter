@@ -7,56 +7,58 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: ['14', '16']
+        node: ['14', '16', '18']
 
     steps:
-      - uses: actions/checkout@v3
+      - name: 🏗 Setup Repository
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      - name: setup pnpm
-        uses: pnpm/action-setup@v2.2.2
+      - name: 🏗 Setup pnpm
+        uses: pnpm/action-setup@v2.2.4
         with:
-          version: 7.5.2
+          version: 7.x
 
-      - name: setup cache ${{ matrix.node }}
+      - name: 🏗 Setup cache ${{ matrix.node }}
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node }}
-          cache: 'pnpm'
+          cache: pnpm
 
-      - name: install
+      - name: 📦 Install
         run: pnpm install --frozen-lockfile
 
-      - name: lint
+      - name: 🚨 Lint
         run: pnpm lint
 
-      - name: format
+      - name: 🎨 Format
         run: pnpm format
 
-      - name: ts
+      - name: 🏷️ Type Check
         run: pnpm ts
 
-      - name: test
+      - name: ✅ Test
         run: pnpm test:coverage
 
-      - name: codecov
+      - name: ✅ Coverage
         uses: codecov/codecov-action@v3
         with:
           file: ./coverage/coverage-final.json
 
-      - name: build
+      - name: 🔧 Build
         run: pnpm build
 
   commit_check:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: 🏗 Setup Repository
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      - name: commitlint
+      - name: 🚨 Commitlint
         uses: wagoid/commitlint-github-action@v5
         with:
           configFile: .commitlintrc.yml
@@ -65,11 +67,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: 🏗 Setup Repository
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      - uses: streetsidesoftware/cspell-action@v2.11.0
+      - name: 🚨 Spellcheck
+        uses: streetsidesoftware/cspell-action@v2.12.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN}}
           inline: error
