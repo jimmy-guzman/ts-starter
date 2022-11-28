@@ -73,7 +73,7 @@ jobs:
           fetch-depth: 0
 
       - name: 🚨 Spellcheck
-        uses: streetsidesoftware/cspell-action@v2.12.0
+        uses: streetsidesoftware/cspell-action@v2.13.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN}}
           inline: error
