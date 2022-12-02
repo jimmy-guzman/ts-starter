@@ -1,0 +1,26 @@
+name: Validate
+description: Validate everything for the repo
+
+runs:
+  using: composite
+  steps:
+    - name: 🚨 Lint
+      shell: bash
+      run: pnpm lint
+
+    - name: 🎨 Format
+      shell: bash
+      run: pnpm format
+
+    - name: 🏷️ Type Check
+      shell: bash
+      run: pnpm ts
+
+    - name: ✅ Test
+      shell: bash
+      run: pnpm test:coverage
+
+    - name: ✅ Coverage
+      uses: codecov/codecov-action@v3
+      with:
+        file: ./coverage/coverage-final.json

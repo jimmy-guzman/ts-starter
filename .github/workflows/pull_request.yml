@@ -12,39 +12,14 @@ jobs:
     steps:
       - name: 🏗 Setup Repository
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
-      - name: 🏗 Setup pnpm
-        uses: pnpm/action-setup@v2.2.4
-        with:
-          version: 7.x
-
-      - name: 🏗 Setup cache ${{ matrix.node }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node }}
-          cache: pnpm
 
       - name: 📦 Install
-        run: pnpm install --frozen-lockfile
-
-      - name: 🚨 Lint
-        run: pnpm lint
-
-      - name: 🎨 Format
-        run: pnpm format
-
-      - name: 🏷️ Type Check
-        run: pnpm ts
-
-      - name: ✅ Test
-        run: pnpm test:coverage
-
-      - name: ✅ Coverage
-        uses: codecov/codecov-action@v3
+        uses: ./.github/actions/install
         with:
-          file: ./coverage/coverage-final.json
+          node-version: ${{ matrix.node }}
+
+      - name: 🦺 Validate
+        uses: ./.github/actions/validate
 
       - name: 🔧 Build
         run: pnpm build
@@ -69,11 +44,9 @@ jobs:
     steps:
       - name: 🏗 Setup Repository
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
 
       - name: 🚨 Spellcheck
-        uses: streetsidesoftware/cspell-action@v2.12.0
+        uses: streetsidesoftware/cspell-action@v2.13.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN}}
           inline: error

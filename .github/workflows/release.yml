@@ -9,44 +9,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: 🏗 Setup Repository
+        uses: actions/checkout@v3
         with:
           fetch-depth: 0
 
-      - name: setup pnpm
-        uses: pnpm/action-setup@v2.2.4
-        with:
-          version: 7.5.2
-      - name: setup cache
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-          cache: 'pnpm'
+      - name: 📦 Install
+        uses: ./.github/actions/install
 
-      - name: install
-        run: pnpm install --frozen-lockfile
+      - name: 🦺 Validate
+        uses: ./.github/actions/validate
 
-      - name: lint
-        run: pnpm lint
-
-      - name: format
-        run: pnpm format
-
-      - name: ts
-        run: pnpm ts
-
-      - name: test
-        run: pnpm test:coverage
-
-      - name: codecov
-        uses: codecov/codecov-action@v3
-        with:
-          file: ./coverage/coverage-final.json
-
-      - name: build
+      - name: 🔧 Build
         run: pnpm build
 
-      - name: publish to npm
+      - name: 🚀 Publish
         if: "!contains(github.event.head_commit.message, 'skip-release')"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
