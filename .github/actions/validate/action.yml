@@ -14,7 +14,7 @@ runs:
 
     - name: 🏷️ Type Check
       shell: bash
-      run: pnpm ts
+      run: pnpm type-check
 
     - name: ✅ Test
       shell: bash

@@ -2,13 +2,13 @@
 
 ## Clone
 
-ssh
+With ssh
 
 ```bash
 git clone git@github.com:jimmy-guzman/library-template.git
 ```
 
-Github Cli
+With Github Cli
 
 ```bash
 gh repo clone jimmy-guzman/library-template
