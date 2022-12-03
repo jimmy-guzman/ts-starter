@@ -50,7 +50,7 @@
     "@semantic-release/release-notes-generator": "10.0.3",
     "@vitest/coverage-c8": "0.25.3",
     "commitlint": "17.3.0",
-    "eslint": "8.28.0",
+    "eslint": "8.29.0",
     "eslint-config-jimmy-guzman": "8.0.0",
     "gitzy": "3.4.0",
     "husky": "8.0.2",
