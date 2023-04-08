@@ -1,0 +1,10 @@
+{
+  "extends": ["jimmy-guzman", "jimmy-guzman/typescript", "jimmy-guzman/jest"],
+  "parserOptions": {
+    "project": ["./tsconfig.json"]
+  },
+  "rules": {
+    "sort-keys": "off",
+    "jest/no-deprecated-functions": "off"
+  }
+}
