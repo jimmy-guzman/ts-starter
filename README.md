@@ -46,16 +46,16 @@
 
 <!-- badges links -->
 
-[actions-badge]: https://img.shields.io/github/workflow/status/jimmy-guzman/library-template/release?label=actions&logo=github-actions&style=flat-square
-[version-badge]: https://img.shields.io/npm/v/library-template.svg?logo=npm&style=flat-square
+[actions-badge]: https://github.com/jimmy-guzman/library-template/actions/workflows/release.yml/badge.svg
+[version-badge]: https://img.shields.io/npm/v/library-template.svg?logo=npm
 [package]: https://www.npmjs.com/package/library-template
-[downloads-badge]: https://img.shields.io/npm/dm/library-template.svg?logo=npm&style=flat-square
+[downloads-badge]: https://img.shields.io/npm/dm/library-template.svg?logo=npm
 [npmtrends]: http://www.npmtrends.com/library-template
 [semantic-release]: https://semantic-release.gitbook.io/semantic-release/
-[semantic-release-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square
-[coverage-badge]: https://img.shields.io/codecov/c/github/jimmy-guzman/library-template.svg?style=flat-square
+[semantic-release-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
+[coverage-badge]: https://img.shields.io/codecov/c/github/jimmy-guzman/library-template.svg
 [coverage]: https://codecov.io/github/jimmy-guzman/library-template
-[prettier-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square
+[prettier-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg
 [prettier]: https://github.com/prettier/prettier
 
 <!-- features links -->
