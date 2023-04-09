@@ -16,11 +16,11 @@ runs:
       shell: bash
       run: pnpm type-check
 
-    - name: ✅ Test
-      shell: bash
-      run: pnpm test:coverage
-
     - name: ✅ Coverage
+      shell: bash
+      run: pnpm Coverage
+
+    - name: ✅ Report Coverage
       uses: codecov/codecov-action@v3
       with:
         file: ./coverage/coverage-final.json
