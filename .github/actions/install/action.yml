@@ -4,7 +4,7 @@ description: Install everything for the repo
 inputs:
   node-version:
     description: Version of Node to use
-    default: 16.x
+    default: 20.x
 
   pnpm-version:
     description: Version of pnpm to use
@@ -19,7 +19,7 @@ runs:
         node-version: ${{ inputs.node-version }}
 
     - name: 🏗 Setup pnpm
-      uses: pnpm/action-setup@v2.2.4
+      uses: pnpm/action-setup@v2
       with:
         version: ${{ inputs.pnpm-version }}
         run_install: false

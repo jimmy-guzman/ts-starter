@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node: ['14', '16', '18']
+        node: ['18', '20']
 
     steps:
       - name: 🏗 Setup Repository
@@ -46,7 +46,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: 🚨 Spellcheck
-        uses: streetsidesoftware/cspell-action@v2.13.0
+        uses: streetsidesoftware/cspell-action@v2
         with:
           github_token: ${{ secrets.GITHUB_TOKEN}}
           inline: error
