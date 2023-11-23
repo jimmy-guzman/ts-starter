@@ -1,5 +1,5 @@
 {
-  "name": "library-template",
+  "name": "ts-lib-starter",
   "version": "0.0.0",
   "repository": {
     "type": "git",
@@ -65,7 +65,8 @@
   "files": [
     "dist"
   ],
+  "packageManager": "pnpm@7.33.5",
   "engines": {
-    "node": ">= 14"
+    "node": ">= 18"
   }
 }
