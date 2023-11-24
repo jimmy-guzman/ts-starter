@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jimmy-guzman/library-template.git"
+    "url": "https://github.com/jimmy-guzman/ts-lib-starter.git"
   },
   "license": "MIT",
   "keywords": [],
