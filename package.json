@@ -44,10 +44,10 @@
   "devDependencies": {
     "@commitlint/config-conventional": "17.3.0",
     "@semantic-release/changelog": "6.0.2",
-    "@semantic-release/commit-analyzer": "9.0.2",
+    "@semantic-release/commit-analyzer": "11.1.0",
     "@semantic-release/git": "10.0.1",
-    "@semantic-release/npm": "9.0.1",
-    "@semantic-release/release-notes-generator": "10.0.3",
+    "@semantic-release/npm": "11.0.1",
+    "@semantic-release/release-notes-generator": "12.1.0",
     "@vitest/coverage-c8": "0.25.3",
     "commitlint": "17.3.0",
     "eslint": "8.29.0",
@@ -57,7 +57,7 @@
     "is-ci": "3.0.1",
     "lint-staged": "13.1.0",
     "prettier": "2.8.0",
-    "semantic-release": "19.0.5",
+    "semantic-release": "22.0.8",
     "tsup": "6.7.0",
     "typescript": "5.0.4",
     "vitest": "0.25.3"
