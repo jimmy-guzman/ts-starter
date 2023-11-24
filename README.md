@@ -4,11 +4,11 @@
 [![semantic-release][semantic-release-badge]][semantic-release]
 [![code style: prettier][prettier-badge]][prettier]
 
-# library-template
+# ts-lib-starter
 
 <!-- ![description starts here] -->
 
-> 🍱 A template with the complete configuration for publishing a typescript library
+> 🍱 another opinionated TypeScript library starter
 
 ## Features
 
@@ -46,15 +46,15 @@
 
 <!-- badges links -->
 
-[actions-badge]: https://github.com/jimmy-guzman/library-template/actions/workflows/release.yml/badge.svg
-[version-badge]: https://img.shields.io/npm/v/library-template.svg?logo=npm
-[package]: https://www.npmjs.com/package/library-template
-[downloads-badge]: https://img.shields.io/npm/dm/library-template.svg?logo=npm
-[npmtrends]: http://www.npmtrends.com/library-template
+[actions-badge]: https://github.com/jimmy-guzman/ts-lib-starter/actions/workflows/release.yml/badge.svg
+[version-badge]: https://img.shields.io/npm/v/ts-lib-starter.svg?logo=npm
+[package]: https://www.npmjs.com/package/ts-lib-starter
+[downloads-badge]: https://img.shields.io/npm/dm/ts-lib-starter.svg?logo=npm
+[npmtrends]: http://www.npmtrends.com/ts-lib-starter
 [semantic-release]: https://semantic-release.gitbook.io/semantic-release/
 [semantic-release-badge]: https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg
-[coverage-badge]: https://img.shields.io/codecov/c/github/jimmy-guzman/library-template.svg
-[coverage]: https://codecov.io/github/jimmy-guzman/library-template
+[coverage-badge]: https://img.shields.io/codecov/c/github/jimmy-guzman/ts-lib-starter.svg
+[coverage]: https://codecov.io/github/jimmy-guzman/ts-lib-starter
 [prettier-badge]: https://img.shields.io/badge/code_style-prettier-ff69b4.svg
 [prettier]: https://github.com/prettier/prettier
 
@@ -73,6 +73,6 @@
 
 <!-- usage links -->
 
-[use-template]: https://github.com/jimmy-guzman/library-template/generate
+[use-template]: https://github.com/jimmy-guzman/ts-lib-starter/generate
 [create-secrets]: https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository
 [codecov-quickstart]: https://docs.codecov.io/docs/quick-start

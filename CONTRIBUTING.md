@@ -5,13 +5,13 @@
 With ssh
 
 ```bash
-git clone git@github.com:jimmy-guzman/library-template.git
+git clone git@github.com:jimmy-guzman/ts-lib-starter.git
 ```
 
-With Github Cli
+With GitHub CLI
 
 ```bash
-gh repo clone jimmy-guzman/library-template
+gh repo clone jimmy-guzman/ts-lib-starter
 ```
 
 ## Install

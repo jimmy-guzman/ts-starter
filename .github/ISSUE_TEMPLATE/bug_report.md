@@ -13,7 +13,7 @@ about: Bugs, missing documentation, or unexpected behavior 🤔.
 
 ---
 
-- `library-template` version:
+- `ts-lib-starter` version:
 - `typescript` version:
 - `node` version:
 
