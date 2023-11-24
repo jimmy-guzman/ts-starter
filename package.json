@@ -48,7 +48,7 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "9.0.1",
     "@semantic-release/release-notes-generator": "10.0.3",
-    "@vitest/coverage-c8": "0.25.3",
+    "@vitest/coverage-c8": "0.33.0",
     "commitlint": "17.3.0",
     "eslint": "8.29.0",
     "eslint-config-jimmy-guzman": "9.1.0",
@@ -60,7 +60,7 @@
     "semantic-release": "19.0.5",
     "tsup": "6.7.0",
     "typescript": "5.0.4",
-    "vitest": "0.25.3"
+    "vitest": "0.34.6"
   },
   "files": [
     "dist"
