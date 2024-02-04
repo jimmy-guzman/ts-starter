@@ -34,7 +34,7 @@ devDependencies:
     version: 8.54.0
   eslint-config-jimmy-guzman:
     specifier: 10.1.0
-    version: 10.1.0(eslint@8.54.0)(prettier@3.1.0)(typescript@5.1.6)
+    version: 10.1.0(eslint@8.54.0)(prettier@3.2.5)(typescript@5.1.6)
   gitzy:
     specifier: 4.0.0
     version: 4.0.0
@@ -48,8 +48,8 @@ devDependencies:
     specifier: 15.1.0
     version: 15.1.0
   prettier:
-    specifier: 3.1.0
-    version: 3.1.0
+    specifier: 3.2.5
+    version: 3.2.5
   semantic-release:
     specifier: 22.0.8
     version: 22.0.8(typescript@5.1.6)
@@ -2274,7 +2274,7 @@ packages:
     engines: {node: '>=12'}
     dev: true
 
-  /eslint-config-jimmy-guzman@10.1.0(eslint@8.54.0)(prettier@3.1.0)(typescript@5.1.6):
+  /eslint-config-jimmy-guzman@10.1.0(eslint@8.54.0)(prettier@3.2.5)(typescript@5.1.6):
     resolution: {integrity: sha512-SCK5d7terdO3w9dEy8X8IGEl6/XaFG0DtfcD5ILtXjnWepE1e6Im9KqZpVplDpef8FIIxwpcmxMK/uniWxM/AA==}
     engines: {node: '>= 16'}
     peerDependencies:
@@ -2294,7 +2294,7 @@ packages:
       eslint-plugin-react: 7.33.2(eslint@8.54.0)
       eslint-plugin-react-hooks: 4.6.0(eslint@8.54.0)
       eslint-plugin-testing-library: 5.11.1(eslint@8.54.0)(typescript@5.1.6)
-      prettier: 3.1.0
+      prettier: 3.2.5
       typescript: 5.1.6
     transitivePeerDependencies:
       - eslint-import-resolver-node
@@ -4494,8 +4494,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier@3.1.0:
-    resolution: {integrity: sha512-TQLvXjq5IAibjh8EpBIkNKxO749UEWABoiIZehEPiY4GNpVdhaFKqSTu+QrlU6D2dPAfubRmtJTi4K4YkQ5eXw==}
+  /prettier@3.2.5:
+    resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
