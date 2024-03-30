@@ -6,7 +6,6 @@
   "commitMessageAction": "bump",
   "commitMessagePrefix": "chore: 🤖 ",
   "commitMessageTopic": "`{{depName}}`",
-  "commitMessageSuffix": " [skip-release]",
   "labels": ["scope:deps", "type:chore"],
   "schedule": ["every weekend"]
 }
