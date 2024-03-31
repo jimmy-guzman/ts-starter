@@ -1,38 +1,43 @@
 {
   "name": "ts-starter",
   "version": "0.0.0",
+  "keywords": [],
   "repository": {
     "type": "git",
     "url": "https://github.com/jimmy-guzman/ts-starter.git"
   },
   "license": "MIT",
-  "keywords": [],
-  "publishConfig": {
-    "access": "public"
-  },
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "sideEffects": false,
+  "type": "module",
   "exports": {
-    "require": "./dist/index.js",
-    "import": "./dist/index.mjs"
+    "require": {
+      "types": "./dist/index.d.cts",
+      "default": "./dist/index.cjs"
+    },
+    "import": {
+      "types": "./dist/index.d.mts",
+      "default": "./dist/index.mjs"
+    }
   },
-  "types": "./dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.cts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "dev": "tsup --watch",
-    "build": "tsup",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage",
-    "typecheck": "tsc",
-    "lint": "eslint --cache --cache-location node_modules/.cache/eslint --color .",
-    "lint:fix": "pnpm lint --fix",
+    "build": "pkgroll --minify",
+    "dev": "pkgroll --watch",
     "format": "prettier --check --cache .",
     "format:fix": "prettier --write --cache .",
-    "deps:bump": "pnpm dlx npm-check-updates -ui",
+    "lint": "eslint --cache --cache-location node_modules/.cache/eslint --color .",
+    "lint:fix": "pnpm lint --fix",
+    "test": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:watch": "vitest",
+    "typecheck": "tsc",
+    "prepack": "pnpm build",
     "prepare": "is-ci || husky install"
-  },
-  "gitzy": {
-    "useCommitlintConfig": true
   },
   "lint-staged": {
     "*.{md,json,yml,ts}": [
@@ -58,17 +63,20 @@
     "husky": "8.0.3",
     "is-ci": "3.0.1",
     "lint-staged": "15.1.0",
+    "pkgroll": "2.0.2",
     "prettier": "3.2.5",
     "semantic-release": "23.0.6",
-    "tsup": "8.0.2",
     "typescript": "5.4.3",
     "vitest": "1.4.0"
   },
-  "files": [
-    "dist"
-  ],
   "packageManager": "pnpm@7.33.5",
   "engines": {
     "node": ">= 20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitzy": {
+    "useCommitlintConfig": true
   }
 }
