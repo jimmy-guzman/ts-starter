@@ -23,9 +23,6 @@ jobs:
       - name: 🦺 Check
         uses: ./.github/actions/check
 
-      - name: 🔧 Build
-        run: pnpm build
-
       - name: 🚀 Publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
