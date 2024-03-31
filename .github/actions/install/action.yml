@@ -19,7 +19,7 @@ runs:
         node-version: ${{ inputs.node-version }}
 
     - name: 🏗 Setup pnpm
-      uses: pnpm/action-setup@v2
+      uses: pnpm/action-setup@v3
       with:
         version: ${{ inputs.pnpm-version }}
         run_install: false
@@ -28,16 +28,16 @@ runs:
       id: pnpm-cache
       shell: bash
       run: |
-        echo "STORE_PATH=$(pnpm store path)" >> $GITHUB_OUTPUT
+        echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
 
     - name: 🏗 Setup Cache
       uses: actions/cache@v4
       with:
-        path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
+        path: ${{ env.STORE_PATH }}
         key: ${{ runner.os }}-${{ inputs.node-version }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
         restore-keys: |
           ${{ runner.os }}-${{ inputs.node-version }}-pnpm-store-
-          ${{ runner.os }}-pnpm-store
+          ${{ runner.os }}-pnpm-store-
 
     - name: 📦 Install Deps
       run: pnpm install
