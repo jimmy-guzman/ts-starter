@@ -1,9 +1,9 @@
 {
-  "name": "ts-lib-starter",
+  "name": "ts-starter",
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jimmy-guzman/ts-lib-starter.git"
+    "url": "https://github.com/jimmy-guzman/ts-tarter.git"
   },
   "license": "MIT",
   "keywords": [],

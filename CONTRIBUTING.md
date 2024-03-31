@@ -1,39 +1,25 @@
-# Getting Started
+## Getting Started
 
-## Clone
-
-With ssh
+Clone the repo, by running the following:
 
 ```bash
-git clone git@github.com:jimmy-guzman/ts-lib-starter.git
+gh repo clone jimmy-guzman/ts-starter
 ```
 
-With GitHub CLI
+Use latest version of node, by running the following:
 
 ```bash
-gh repo clone jimmy-guzman/ts-lib-starter
+nvm use
 ```
 
-## Install
-
-Use either `nvm` or `pnpm env` to be in sync with node version
-
-- with [pnpm env](https://pnpm.io/cli/env)
+Enable `corepack`, by running the following:
 
 ```bash
-pnpm env use --global 16
+corepack enable
 ```
+
+Install dependencies, by running the following:
 
 ```bash
 pnpm install
-```
-
-- with [nvm](https://github.com/nvm-sh/nvm)
-
-```bash
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
-```
-
-```bash
-nvm use && pnpm
 ```
