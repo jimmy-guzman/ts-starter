@@ -23,12 +23,12 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
-    "type-check": "tsc",
+    "typecheck": "tsc",
     "lint": "eslint --cache --cache-location node_modules/.cache/eslint --color .",
     "lint:fix": "pnpm lint --fix",
     "format": "prettier --check --cache .",
     "format:fix": "prettier --write --cache .",
-    "deps:update": "pnpm dlx npm-check-updates -ui",
+    "deps:bump": "pnpm dlx npm-check-updates -ui",
     "prepare": "is-ci || husky install"
   },
   "gitzy": {
