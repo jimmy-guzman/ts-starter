@@ -36,7 +36,7 @@
     "coverage": "vitest run --coverage",
     "test:watch": "vitest",
     "typecheck": "tsc",
-    "prepack": "pnpm build",
+    "prepack": "pnpm build && clean-pkg-json",
     "prepare": "lefthook install"
   },
   "devDependencies": {
@@ -48,6 +48,7 @@
     "@semantic-release/release-notes-generator": "13.0.0",
     "@types/node": "20.12.2",
     "@vitest/coverage-v8": "1.4.0",
+    "clean-pkg-json": "1.2.0",
     "commitlint": "19.2.1",
     "eslint": "8.57.0",
     "eslint-config-jimmy-guzman": "14.1.0",
