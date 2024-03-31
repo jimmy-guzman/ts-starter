@@ -1,4 +1,4 @@
-name: pull_request
+name: ci
 
 on: [pull_request]
 
@@ -18,8 +18,8 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      - name: 🦺 Validate
-        uses: ./.github/actions/validate
+      - name: 🦺 Check
+        uses: ./.github/actions/check
 
       - name: 🔧 Build
         run: pnpm build

@@ -1,4 +1,4 @@
-name: release
+name: cd
 
 on:
   push:
@@ -20,8 +20,8 @@ jobs:
       - name: 📦 Install
         uses: ./.github/actions/install
 
-      - name: 🦺 Validate
-        uses: ./.github/actions/validate
+      - name: 🦺 Check
+        uses: ./.github/actions/check
 
       - name: 🔧 Build
         run: pnpm build

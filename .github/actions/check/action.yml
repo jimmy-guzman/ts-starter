@@ -1,5 +1,5 @@
-name: Validate
-description: Validate everything for the repo
+name: Check
+description: Check everything
 
 runs:
   using: composite
@@ -14,7 +14,7 @@ runs:
 
     - name: 🏷️ Type Check
       shell: bash
-      run: pnpm type-check
+      run: pnpm typecheck
 
     - name: ✅ Test
       shell: bash

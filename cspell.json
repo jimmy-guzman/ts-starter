@@ -22,6 +22,7 @@
     "shellcheck",
     "streetsidesoftware",
     "tsup",
+    "typecheck",
     "vitest",
     "wagoid",
     "yalc"
