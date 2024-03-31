@@ -21,6 +21,6 @@ runs:
       run: pnpm test:coverage
 
     - name: ✅ Coverage
-      uses: codecov/codecov-action@v3
+      uses: codecov/codecov-action@v4
       with:
         file: ./coverage/coverage-final.json
