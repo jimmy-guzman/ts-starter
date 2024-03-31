@@ -37,15 +37,7 @@
     "test:watch": "vitest",
     "typecheck": "tsc",
     "prepack": "pnpm build",
-    "prepare": "is-ci || husky install"
-  },
-  "lint-staged": {
-    "*.{md,json,yml,ts}": [
-      "prettier -w"
-    ],
-    "*.ts": [
-      "eslint"
-    ]
+    "prepare": "lefthook install"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "19.1.0",
@@ -60,9 +52,7 @@
     "eslint": "8.57.0",
     "eslint-config-jimmy-guzman": "14.1.0",
     "gitzy": "5.2.0",
-    "husky": "8.0.3",
-    "is-ci": "3.0.1",
-    "lint-staged": "15.1.0",
+    "lefthook": "1.6.7",
     "pkgroll": "2.0.2",
     "prettier": "3.2.5",
     "semantic-release": "23.0.6",
