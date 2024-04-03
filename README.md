@@ -7,20 +7,12 @@
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://semantic-release.gitbook.io/semantic-release)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square&logo=prettier)](https://github.com/prettier/prettier)
 
-<!-- ![description starts here] -->
-
 > 🍱 another opinionated TypeScript library starter
 
-<!-- ![description ends here] -->
-
-<!-- ![usage starts here] -->
-
-## Usage
+## 🛠️ Usage
 
 - [create a `NPM_TOKEN`](https://docs.npmjs.com/about-access-tokens)
 - add `NPM_TOKEN` as [repository secret](https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository)
 - [create codecov account](https://docs.codecov.io/docs/quick-start)
 - replace `ts-starter` and `jimmy-guzman`
 - remove `--dry-run` from `.github/workflows/release.yml`
-
-<!-- ![usage ends here] -->

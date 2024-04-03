@@ -5,7 +5,6 @@
     "Codecov",
     "commitlint",
     "commitlintrc",
-    "comparto",
     "corepack",
     "dbaeumer",
     "deps",
@@ -25,8 +24,7 @@
     "streetsidesoftware",
     "typecheck",
     "vitest",
-    "wagoid",
-    "yalc"
+    "wagoid"
   ],
   "ignorePaths": [
     "node_modules", // this will ignore anything the node_modules directory
