@@ -1,1 +1,1 @@
-export const lib = ''
+export const lib = "";

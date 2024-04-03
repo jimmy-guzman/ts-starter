@@ -1,5 +1,5 @@
-import { lib } from './index'
+import { lib } from "./index";
 
-test('lib', () => {
-  expect(lib).toBe('')
-})
+test("lib", () => {
+  expect(lib).toBe("");
+});

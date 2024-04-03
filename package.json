@@ -1,6 +1,7 @@
 {
   "name": "ts-starter",
   "version": "0.0.0",
+  "description": "",
   "keywords": [],
   "repository": {
     "type": "git",
@@ -36,10 +37,12 @@
     "coverage": "vitest run --coverage",
     "typecheck": "tsc",
     "prepack": "pnpm build && clean-pkg-json",
-    "prepare": "lefthook install"
+    "prepare": "is-ci || lefthook install"
   },
+  "prettier": "@jimmy.codes/prettier-config",
   "devDependencies": {
     "@commitlint/config-conventional": "19.1.0",
+    "@jimmy.codes/prettier-config": "1.0.1",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "12.0.0",
     "@semantic-release/git": "10.0.1",
@@ -52,6 +55,7 @@
     "eslint": "8.57.0",
     "eslint-config-jimmy-guzman": "14.1.0",
     "gitzy": "5.2.0",
+    "is-ci": "3.0.1",
     "lefthook": "1.6.7",
     "pkgroll": "2.0.2",
     "prettier": "3.2.5",
