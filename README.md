@@ -11,8 +11,8 @@
 
 ## 🛠️ Usage
 
-- [create a `NPM_TOKEN`](https://docs.npmjs.com/about-access-tokens)
-- add `NPM_TOKEN` as [repository secret](https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository)
+- You can either [use this template](https://github.com/jimmy-guzman/ts-starter/generate) or use [tiged](https://github.com/tiged/tiged), by running `npx tiged jimmy-guzman/ts-starter`
+- [create a `NPM_TOKEN`](https://docs.npmjs.com/about-access-tokens) and add `NPM_TOKEN` as [repository secret](https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository)
 - [create codecov account](https://docs.codecov.io/docs/quick-start)
 - replace `ts-starter` and `jimmy-guzman`
-- remove `--dry-run` from `.github/workflows/release.yml`
+- remove `--dry-run` from `.github/workflows/cd.yml`
