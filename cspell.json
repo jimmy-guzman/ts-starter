@@ -22,6 +22,7 @@
     "prebuild",
     "shellcheck",
     "streetsidesoftware",
+    "tiged",
     "typecheck",
     "vitest",
     "wagoid"
