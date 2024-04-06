@@ -30,6 +30,7 @@
     "node_modules/**",
     "vscode-extension",
     ".git",
+    ".gitignore",
     "*.dll",
     "**/*.dll",
     "yarn.lock",
