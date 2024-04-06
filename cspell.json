@@ -2,7 +2,6 @@
   "version": "0.2",
   "words": [
     "cicd",
-    "Codecov",
     "commitlint",
     "commitlintrc",
     "corepack",
@@ -15,11 +14,8 @@
     "lcov",
     "lefthook",
     "nvmrc",
-    "OSTYPE",
-    "Parens",
     "pkgroll",
     "pnpm",
-    "prebuild",
     "shellcheck",
     "streetsidesoftware",
     "tiged",
@@ -28,14 +24,14 @@
     "wagoid"
   ],
   "ignorePaths": [
-    "node_modules", // this will ignore anything the node_modules directory
-    "**/node_modules", // the same for this one
-    "**/node_modules/**", // the same for this one
-    "node_modules/**", // Doesn't currently work due to how the current working directory is determined.
-    "vscode-extension", //
-    ".git", // Ignore the .git directory
-    "*.dll", // Ignore all .dll files.
-    "**/*.dll", // Ignore all .dll files,
+    "node_modules",
+    "**/node_modules",
+    "**/node_modules/**",
+    "node_modules/**",
+    "vscode-extension",
+    ".git",
+    "*.dll",
+    "**/*.dll",
     "yarn.lock",
     "pnpm-lock.yaml"
   ]

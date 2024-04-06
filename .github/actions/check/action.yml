@@ -19,8 +19,3 @@ runs:
     - name: ✅ Coverage
       shell: bash
       run: pnpm coverage
-
-    - name: ✅ Report Coverage
-      uses: codecov/codecov-action@v4
-      with:
-        file: ./coverage/coverage-final.json
