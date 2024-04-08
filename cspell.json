@@ -34,6 +34,8 @@
     "*.dll",
     "**/*.dll",
     "yarn.lock",
-    "pnpm-lock.yaml"
+    "pnpm-lock.yaml",
+    "**/__snapshots__",
+    "**/__snapshots__/**"
   ]
 }

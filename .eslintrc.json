@@ -1,6 +1,0 @@
-{
-  "extends": ["jimmy-guzman", "jimmy-guzman/typescript", "jimmy-guzman/vitest"],
-  "parserOptions": {
-    "project": ["./tsconfig.json"]
-  }
-}
