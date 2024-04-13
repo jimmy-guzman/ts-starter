@@ -9,8 +9,8 @@ devDependencies:
     specifier: 19.1.0
     version: 19.1.0
   '@jimmy.codes/eslint-config':
-    specifier: 1.4.0
-    version: 1.4.0(@typescript-eslint/parser@7.6.0)(eslint-plugin-import@2.29.1)(eslint@8.57.0)(typescript@5.4.5)
+    specifier: 1.5.0
+    version: 1.5.0(@typescript-eslint/parser@7.6.0)(eslint-plugin-import@2.29.1)(eslint@8.57.0)(typescript@5.4.5)
   '@jimmy.codes/prettier-config':
     specifier: 1.0.1
     version: 1.0.1(prettier@3.2.5)
@@ -586,8 +586,8 @@ packages:
       '@sinclair/typebox': 0.27.8
     dev: true
 
-  /@jimmy.codes/eslint-config@1.4.0(@typescript-eslint/parser@7.6.0)(eslint-plugin-import@2.29.1)(eslint@8.57.0)(typescript@5.4.5):
-    resolution: {integrity: sha512-NLB1evh4U8t1QfF7cjbdr8DFy4bFRXjaaWUQqJvRKZlYT/at7OLZ9G2/hHqqP4lBQsv0DJAxW5QK4SfISDIr9A==}
+  /@jimmy.codes/eslint-config@1.5.0(@typescript-eslint/parser@7.6.0)(eslint-plugin-import@2.29.1)(eslint@8.57.0)(typescript@5.4.5):
+    resolution: {integrity: sha512-F0vGFakZ1KnT/zg9eKGie+OScoY3o8MQDRUkTkjz9rKleO1fHXwMNB3QWX19/yOH8ty8rFclYLAN/+7hqzFdNw==}
     engines: {node: '>= 20'}
     peerDependencies:
       eslint: ^8.57.0
@@ -607,8 +607,9 @@ packages:
       eslint-plugin-react-hooks: 4.6.0(eslint@8.57.0)
       eslint-plugin-react-refresh: 0.4.6(eslint@8.57.0)
       eslint-plugin-simple-import-sort: 12.0.0(eslint@8.57.0)
-      eslint-plugin-testing-library: 6.2.0(eslint@8.57.0)(typescript@5.4.5)
+      eslint-plugin-testing-library: 6.2.1(eslint@8.57.0)(typescript@5.4.5)
       globals: 15.0.0
+      local-pkg: 0.5.0
       typescript-eslint: 7.6.0(eslint@8.57.0)(typescript@5.4.5)
     transitivePeerDependencies:
       - '@testing-library/dom'
@@ -2763,8 +2764,8 @@ packages:
       eslint: 8.57.0
     dev: true
 
-  /eslint-plugin-testing-library@6.2.0(eslint@8.57.0)(typescript@5.4.5):
-    resolution: {integrity: sha512-+LCYJU81WF2yQ+Xu4A135CgK8IszcFcyMF4sWkbiu6Oj+Nel0TrkZq/HvDw0/1WuO3dhDQsZA/OpEMGd0NfcUw==}
+  /eslint-plugin-testing-library@6.2.1(eslint@8.57.0)(typescript@5.4.5):
+    resolution: {integrity: sha512-CP2YV/AxtgyrXgizM4648UkuVrFGDcCA8uDmrLytGqtsa7wgC6MTuIQqEAT1Qm4/zCxnC8xRtiGgfEwEt6hmdw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0, npm: '>=6'}
     peerDependencies:
       eslint: ^7.5.0 || ^8.0.0

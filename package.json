@@ -42,7 +42,7 @@
   "prettier": "@jimmy.codes/prettier-config",
   "devDependencies": {
     "@commitlint/config-conventional": "19.1.0",
-    "@jimmy.codes/eslint-config": "1.4.0",
+    "@jimmy.codes/eslint-config": "1.5.0",
     "@jimmy.codes/prettier-config": "1.0.1",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "12.0.0",
