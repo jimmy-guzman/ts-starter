@@ -53,7 +53,7 @@
     "@vitest/coverage-v8": "1.6.0",
     "clean-pkg-json": "1.2.0",
     "commitlint": "19.3.0",
-    "eslint": "8.57.0",
+    "eslint": "9.5.0",
     "gitzy": "5.4.0",
     "is-ci": "3.0.1",
     "lefthook": "1.6.15",
