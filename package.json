@@ -49,21 +49,21 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "12.0.1",
     "@semantic-release/release-notes-generator": "14.0.1",
-    "@types/node": "20.14.10",
-    "@vitest/coverage-v8": "2.0.2",
+    "@types/node": "20.14.11",
+    "@vitest/coverage-v8": "2.0.4",
     "clean-pkg-json": "1.2.0",
     "commitlint": "19.3.0",
     "eslint": "8.57.0",
     "gitzy": "5.4.0",
     "is-ci": "3.0.1",
-    "lefthook": "1.7.2",
-    "pkgroll": "2.1.1",
+    "lefthook": "1.7.5",
+    "pkgroll": "2.4.1",
     "prettier": "3.3.3",
     "semantic-release": "24.0.0",
-    "typescript": "5.5.3",
-    "vitest": "2.0.2"
+    "typescript": "5.5.4",
+    "vitest": "2.0.4"
   },
-  "packageManager": "pnpm@9.5.0",
+  "packageManager": "pnpm@9.6.0",
   "engines": {
     "node": ">= 20"
   },
