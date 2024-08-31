@@ -41,7 +41,7 @@
   },
   "prettier": "@jimmy.codes/prettier-config",
   "devDependencies": {
-    "@commitlint/config-conventional": "19.2.2",
+    "@commitlint/config-conventional": "19.4.1",
     "@jimmy.codes/eslint-config": "1.9.0",
     "@jimmy.codes/prettier-config": "1.1.0",
     "@semantic-release/changelog": "6.0.3",
@@ -49,10 +49,10 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "12.0.1",
     "@semantic-release/release-notes-generator": "14.0.1",
-    "@types/node": "20.16.0",
+    "@types/node": "20.16.2",
     "@vitest/coverage-v8": "2.0.5",
     "clean-pkg-json": "1.2.0",
-    "commitlint": "19.4.0",
+    "commitlint": "19.4.1",
     "eslint": "8.57.0",
     "gitzy": "5.4.0",
     "is-ci": "3.0.1",
@@ -63,7 +63,7 @@
     "typescript": "5.5.4",
     "vitest": "2.0.5"
   },
-  "packageManager": "pnpm@9.7.1",
+  "packageManager": "pnpm@9.9.0",
   "engines": {
     "node": ">= 20"
   },
