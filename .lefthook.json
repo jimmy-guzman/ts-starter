@@ -5,7 +5,7 @@
     "commands": {
       "lint": {
         "glob": "*.ts",
-        "run": "pnpm exec eslint --fix {staged_files}",
+        "run": "pnpm exec eslint --flag unstable_ts_config --fix {staged_files}",
         "stage_fixed": true
       },
       "format": {
