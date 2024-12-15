@@ -55,7 +55,7 @@
     "commitlint": "19.6.1",
     "eslint": "9.17.0",
     "gitzy": "5.7.1",
-    "is-ci": "3.0.1",
+    "is-ci": "4.1.0",
     "jiti": "2.4.1",
     "lefthook": "1.9.2",
     "pkgroll": "2.5.1",
