@@ -43,7 +43,7 @@
   "devDependencies": {
     "@commitlint/config-conventional": "19.8.0",
     "@jimmy.codes/eslint-config": "4.0.0",
-    "@jimmy.codes/prettier-config": "1.4.0",
+    "@jimmy.codes/prettier-config": "1.5.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/commit-analyzer": "13.0.1",
     "@semantic-release/git": "10.0.1",
@@ -64,7 +64,7 @@
     "typescript": "5.8.2",
     "vitest": "3.0.8"
   },
-  "packageManager": "pnpm@9.15.7",
+  "packageManager": "pnpm@9.15.9",
   "engines": {
     "node": ">= 20"
   },
