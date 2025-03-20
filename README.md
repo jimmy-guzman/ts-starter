@@ -12,5 +12,5 @@
 
 - You can either [use this template](https://github.com/jimmy-guzman/ts-starter/generate) or use [tiged](https://github.com/tiged/tiged), by running `npx tiged jimmy-guzman/ts-starter`
 - [create a `NPM_TOKEN`](https://docs.npmjs.com/about-access-tokens) and add `NPM_TOKEN` as [repository secret](https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository)
-- replace `ts-starter` and `jimmy-guzman`
-- remove `--dry-run` from `.github/workflows/cd.yml`
+- Replace `ts-starter` and `jimmy-guzman`
+- Set `--dry_run` to `true` in `.github/workflows/cd.yml`
