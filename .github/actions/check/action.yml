@@ -4,6 +4,10 @@ description: Check everything
 runs:
   using: composite
   steps:
+    - name: ✂️ Knip
+      shell: bash
+      run: pnpm knip
+
     - name: 🚨 Lint
       shell: bash
       run: pnpm lint
