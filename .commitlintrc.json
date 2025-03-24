@@ -1,4 +1,3 @@
 {
-  "extends": "@commitlint/config-conventional",
-  "rules": { "header-max-length": [2, "always", 64] }
+  "extends": "@commitlint/config-conventional"
 }
