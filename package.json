@@ -11,25 +11,17 @@
   "sideEffects": false,
   "type": "module",
   "exports": {
-    "require": {
-      "types": "./dist/index.d.cts",
-      "default": "./dist/index.cjs"
-    },
-    "import": {
-      "types": "./dist/index.d.mts",
-      "default": "./dist/index.mjs"
-    }
+    ".": "./dist/index.js"
   },
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.cts",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "pkgroll --minify",
+    "build": "tsup",
     "coverage": "vitest run --coverage",
-    "dev": "pkgroll --watch",
+    "dev": "tsup --watch",
     "format": "prettier --check --cache .",
     "format:fix": "prettier --write --cache .",
     "knip": "knip",
@@ -55,8 +47,8 @@
     "jiti": "2.4.2",
     "knip": "5.46.0",
     "lefthook": "1.11.4",
-    "pkgroll": "2.11.2",
     "prettier": "3.5.3",
+    "tsup": "8.4.0",
     "typescript": "5.8.2",
     "vitest": "3.0.9"
   },
