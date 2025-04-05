@@ -1,7 +1,7 @@
 onlyBuiltDependencies:
   - esbuild
   - lefthook
-savePrefix: ''
+savePrefix: ""
 engineStrict: true
 autoInstallPeers: false
 color: always
