@@ -48,6 +48,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: 🚨 Spellcheck
-        uses: streetsidesoftware/cspell-action@v6
+        uses: streetsidesoftware/cspell-action@v7
         with:
           inline: error
