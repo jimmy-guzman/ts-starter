@@ -22,7 +22,9 @@
     "shellcheck",
     "streetsidesoftware",
     "tiged",
+    "tsdown",
     "typecheck",
+    "unrs",
     "vitest",
     "wagoid"
   ],
