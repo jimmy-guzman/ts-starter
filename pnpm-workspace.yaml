@@ -1,7 +1,8 @@
+autoInstallPeers: false
+color: always
+engineStrict: true
 onlyBuiltDependencies:
   - esbuild
   - lefthook
+  - unrs-resolver
 savePrefix: ""
-engineStrict: true
-autoInstallPeers: false
-color: always
