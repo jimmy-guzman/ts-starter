@@ -19,9 +19,9 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup",
+    "build": "tsdown",
     "coverage": "vitest run --coverage",
-    "dev": "tsup --watch",
+    "dev": "tsdown --watch",
     "format": "prettier --check --cache .",
     "format:fix": "prettier --write --cache .",
     "knip": "knip",
@@ -48,7 +48,7 @@
     "knip": "5.59.0",
     "lefthook": "1.11.13",
     "prettier": "3.5.3",
-    "tsup": "8.5.0",
+    "tsdown": "0.12.4",
     "typescript": "5.8.3",
     "vitest": "3.1.4"
   },
