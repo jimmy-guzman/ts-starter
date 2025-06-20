@@ -5,7 +5,7 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/jimmy-guzman/ts-starter.git"
+    "url": "git+https://github.com/jimmy-guzman/ts-starter.git"
   },
   "license": "MIT",
   "sideEffects": false,
@@ -48,6 +48,7 @@
     "knip": "5.61.2",
     "lefthook": "1.11.14",
     "prettier": "3.5.3",
+    "publint": "0.3.12",
     "tsdown": "0.12.8",
     "typescript": "5.8.3",
     "vitest": "3.2.4"
