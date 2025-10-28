@@ -10,7 +10,7 @@
       },
       "format": {
         "glob": "*.{md,json,yml,yaml,ts}",
-        "run": "pnpm exec prettier --write {staged_files}",
+        "run": "pnpm exec prettier --write --experimental-cli {staged_files}",
         "stage_fixed": true
       }
     }
