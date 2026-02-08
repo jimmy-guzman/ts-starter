@@ -8,9 +8,9 @@
         "run": "pnpm exec eslint --fix {staged_files}",
         "stage_fixed": true
       },
-      "format": {
+      "fmt": {
         "glob": "*.{md,json,yml,yaml,ts}",
-        "run": "pnpm exec prettier --write --experimental-cli {staged_files}",
+        "run": "pnpm exec oxfmt {staged_files}",
         "stage_fixed": true
       }
     }
