@@ -28,7 +28,8 @@
     "typecheck",
     "unrs",
     "vitest",
-    "wagoid"
+    "wagoid",
+    "oxfmtrc"
   ],
   "ignorePaths": [
     "node_modules",
