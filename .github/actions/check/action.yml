@@ -14,7 +14,7 @@ runs:
 
     - name: 🎨 Format
       shell: bash
-      run: pnpm format
+      run: pnpm fmt
 
     - name: 🏷️ Type Check
       shell: bash
