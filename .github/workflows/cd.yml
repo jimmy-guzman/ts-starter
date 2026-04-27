@@ -24,7 +24,7 @@ jobs:
         uses: ./.github/actions/check
 
       - name: 🚀 Publish
-        uses: cycjimmy/semantic-release-action@v4
+        uses: cycjimmy/semantic-release-action@v6.0.0
         with:
           semantic_version: latest
           dry_run: true
